@@ -1,0 +1,167 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: sans-serif;
+}
+    .head{
+        display: flex;
+        flex-direction: column;
+        background-color: #1F2937;
+        height: fit-content;
+        padding: 8px 100px;
+    }
+        .header{
+            display: flex;
+            height: max-content;
+            justify-content: space-between;
+        
+        }
+            #logo{
+                display: flex;
+                padding: 8px;
+                font-size: 24px;
+                width: fit-content;
+                color: #F9FAF8;
+                align-content: center;
+                flex-wrap: wrap;
+                
+            }
+            .links{
+                align-content: center;
+                display: flex;
+                padding: 8px;
+                font-size: 18px;
+                width: fit-content;
+                flex-wrap: wrap;
+                color: #E5E7EB;
+                column-gap: 18px;
+                
+            }
+        .hero{
+            display: flex;
+            padding: 80px 0px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+            .hero-content{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                flex: 1 1 0;
+            }
+                #hero-title{
+                    font-size: 48px;
+                    font-weight: bolder;
+                    color: #F9FAF8;
+                }
+                #hero-subtext{
+                    font-size: 18px;
+                    color: #E5E7EB;
+                }
+                #hero-button{
+                    color: white;
+                    background-color: #3882F6;
+                    border-radius: 4px;
+                    border-style: none;
+                }
+            .hero-image{
+                display: flex;
+                flex: 1 1 0;
+                background-color: #8b8e96;
+                width: auto;
+                height: auto;
+            }
+
+    .information{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        height: fit-content;
+        padding: 80px 150px;
+        padding-top: 0px;
+    }
+            .info{
+                display: flex;
+                justify-content: space-between;
+                
+            }
+                .info.title{
+                    font-size: 36px;
+                    font-weight: bolder;
+                    color: #1F2937;
+                    padding: 40px 0px;
+                    justify-content: center;
+
+                } 
+                .info.boxes{
+                    flex-direction: column;
+                    margin: 18px;
+                }
+                    .info.box{
+                        height: 150px;
+                        width: 150px;
+                        border: 4px solid #3882F6;
+                        border-radius: 12px;
+                    }
+                    .info.text{
+                        width: 150px;
+                        align-items: center;
+                        text-align: center;
+                    }
+
+              
+    .quote{
+        display: flex;
+        flex-direction: column;
+        background-color: #E5E7EB;
+        height: fit-content;
+        padding: 80px 150px;
+        
+    }
+        #quote-text{
+            font-size: 36px;
+            font-style:italic;
+            font-weight: lighter;
+            color: #1F2937;
+        }
+        #quote-by{
+            font-size: 24px;
+            text-align: right;
+            font-weight: bold;
+            color: #1F2937;
+        }
+
+    .contact{
+        display: flex;
+        height: fit-content;
+        margin: 80px 0px;
+        background-color: #3882F6;
+        border-radius: 4px;
+        padding: 80px 150px;
+        justify-content: space-between;
+    }
+        #contact-text{
+            font-size: 18px;
+            font-weight: bolder;
+            color: white;
+            margin: 0;
+        }
+        #contact-subtext{
+            font-size: 18px;
+            color: white;
+            margin: 0;
+        }
+        #contact-button{
+            color: white;
+            background-color: #3882F6;
+            border-radius: 10px;
+            border-color: #F9FAF8;
+            border: 2px;
+            padding: 2px 38px;
+            border-style:solid;
+            font-size: 18px;
+            font-weight: bold;
+            
+            
+        }
